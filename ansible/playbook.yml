@@ -1,0 +1,8 @@
+---
+# Ansible playbook
+
+- name: Configuration for web servers
+  hosts: default
+  sudo: True
+  roles:
+  - web
